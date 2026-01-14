@@ -153,8 +153,3 @@ OUTPUT_NODE = True
 
 ### 3) 批量输入尺寸不一致
 ComfyUI 的 batch 通常要求尺寸一致。建议在 Batch Load 时统一尺寸（resize_to_first 或固定尺寸策略）。
-
----
-
-## License
-建议选择 MIT / Apache-2.0（或你们的私有协议），并写到 `LICENSE` 文件中。
