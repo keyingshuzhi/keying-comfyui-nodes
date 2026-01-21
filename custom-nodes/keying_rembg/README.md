@@ -132,6 +132,5 @@ ComfyUI/
 ```
 
 ---
-
 ## 7. License
-按你们项目需要填写（MIT / Apache-2.0 / 私有协议等）。
+Apache License Version 2.0
