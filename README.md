@@ -1,10 +1,11 @@
-# custom_nodes 说明（GitHub 上传版 v1.0）
+# keying-comfyui-nodes / custom_nodes 目录说明（v1.0）
 
+- GitHub 项目：`keying-comfyui-nodes`
 - 版本：`v1.0`
 - 日期：`2026-05-31`
 - 适用范围：`ComfyUI/custom_nodes`
 
-本文件用于统一说明 `custom_nodes` 目录内的节点来源、文档现状和提交规范，便于直接上传到 GitHub。
+本文件用于整理 `custom_nodes` 目录内的节点来源、文档现状和提交规范，作为 `keying-comfyui-nodes` 仓库的发布基线说明。
 
 ## 1. 节点来源分类
 
@@ -30,7 +31,7 @@
 | `keying-video-vsr` | `Keying Video Input` / `Keying Video Super Resolution (Process)` / `Keying Video Output` 等 | `README.md`、`使用手册_三个新增节点.md` |
 | `keying-watermark-overlay` | `Keying Watermark Text (柯影数智 AI生成)` | 暂无独立 README |
 
-## 2. 自研节点编写规范（v1.0）
+## 2. 自研节点开发规范（v1.0）
 
 ### 2.1 目录与命名
 
@@ -71,7 +72,7 @@
 3. 禁止删除或覆盖第三方许可证文本。
 4. 对外发布前，确认每个第三方目录都能追溯来源仓库与版本。
 
-## 4. GitHub 上传检查清单（v1.0）
+## 4. 发布检查清单（v1.0）
 
 1. 清理缓存与系统文件：`__pycache__/`、`.DS_Store`。
 2. 确认本文件已提交：`custom_nodes/README.md`。
