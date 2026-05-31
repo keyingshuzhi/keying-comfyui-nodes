@@ -1,0 +1,26 @@
+{
+  "pos_prefix": "",
+  "neg_prefix": "",
+  "quality_tail": "best quality",
+
+  "neg_basic": "blurry, worst quality, low quality, deformed hands, bad anatomy, extra limbs, poorly drawn face, mutated, extra eyes, bad proportions",
+  "neg_strong": "blurry, worst quality, low quality, deformed hands, bad anatomy, extra limbs, poorly drawn face, mutated, extra eyes, bad proportions, jpeg artifacts, signature, watermark, username, error, malformed limbs, fused fingers, too many fingers, long neck, cross-eyed, cropped",
+
+  "must_have_pos": [],
+  "banned_pos": [],
+
+  "max_pos_tags": 75,
+  "max_pos_chars": 1200,
+
+  "max_section_tags": {
+    "character": 6,
+    "style": 6,
+    "appearance": 12,
+    "clothing": 12,
+    "expression_action": 10,
+    "camera": 8,
+    "lighting_fx": 10,
+    "scene": 16,
+    "quality": 6
+  }
+}
